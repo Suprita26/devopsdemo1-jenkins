@@ -3,11 +3,11 @@ pipeline{
     stages{
       steps('complie')
       {
-        bat "javac hello.java"
+        bat "javac Hello.java"
       }
       steps('run')
       {
-        bat "java hello"
+        bat "java Hello"
       }
     }
   }
